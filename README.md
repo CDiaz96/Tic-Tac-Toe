@@ -3,6 +3,8 @@
 
 This website allows you to play Tic Tac Toes against another player. Find a friend and challenge them!
 
+Website: https://tictactoe-carolindiaz.netlify.app/
+
 ![Tic-Tac-Toe Screenshot](/TicTac.png)
 
 Tech used: HTML, CSS, Object Oriented Javascript
