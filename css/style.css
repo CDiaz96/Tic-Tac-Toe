@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  }
+body{
+  background-image: url("images/floral.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+  #board {
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    margin-top: 6%;
+    padding: 2%;
+    background-color: white;
+  }
+section {
+    border: 1px black solid;
+    width: 33%;
+    height: 33%;
+    float: left;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(8,83,100);
+  }
+
+#board section:first-child {
+      border-left: none;
+      border-top: none;
+    }
+
+  #board section:nth-child(2) {
+      border-top: none;
+    }
+
+  #board section:nth-child(3) {
+      border-top: none;
+      border-right: none;
+    }
+
+  #board section:nth-child(4) {
+      border-left: none;
+    }
+
+  #board section:nth-child(6){
+      border-right: none;
+    }
+
+  #board section:nth-child(7){
+        border-left: none;
+        border-bottom: none;
+    }
+
+  #board section:nth-child(8){
+      border-bottom: none;
+    }
+
+  #board section:last-child {
+      border-right: none;
+      border-bottom: none;
+    }
+
+
+
+    .x {
+      background-image: url('images/x.png');
+      background-color: lightblue;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .circle {
+      background-image: url("images/circle.png");
+      background-color: lightpink;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #restartButton {
+      margin-left: 48%;
+      display: none;
+      font-family: cursive;
+      font-weight: bold;
+      padding-left: 2%;
+      padding-right: 2%;
+      margin-top: 2%;
+      background-color: rgb(59,177,186);
+      font-size: 30px;
+      color: white;
+    }
+
+
+
+.gone {
+  display: none;
+}
